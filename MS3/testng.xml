@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+
+<listener class-name="utilities.listeners"/>
+
+<listener class-name="utilities.ExtentReporterNG"/>
+</listeners>
+<test thread-count="5" name="HeadingValidation">
+    <classes>
+      <class name="practice.practiceproject.HeadingValidation"/>
+    </classes>
+  </test> 
+  
+  <test thread-count="5" name="SearchValidation">
+    <classes>
+      <class name="practice.practiceproject.SearchValidation"/>
+   
+       </classes>
+  </test> 
+    
+     <test thread-count="5" name="TitleValidation">
+    <classes>
+      <class name="practice.practiceproject.TitleValidation"/>
+       </classes>
+  </test>
+</suite> 
